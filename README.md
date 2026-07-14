@@ -1,4 +1,4 @@
-MotorPH Payroll System – Complete README
+MotorPH Payroll System
 
 
 📌 Project Overview
