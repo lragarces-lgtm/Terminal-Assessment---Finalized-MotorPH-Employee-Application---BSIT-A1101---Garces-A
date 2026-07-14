@@ -45,22 +45,8 @@ CSV Parsing: Custom regex split with quoted‑field support
 🧩 CSV File Formats
 
 
-employees.csv – 14 Columns (Required)
-Column Index	Header	Description	Example
-0	Employee #	Unique employee ID	10001
-1	Last Name	Employee's last name	Garcia
-2	First Name	Employee's first name	Manuel III
-3	Birthday	Date of birth (MM/dd/yyyy)	10/11/1983
-4	Status	Employment status	Regular, Probationary
-5	Position	Job title	Chief Executive Officer
-6	Immediate Supervisor	Name of supervisor	John Santos
-7	Basic Salary	Monthly basic salary	90000.00
-8	Gross Semi-monthly Rate	Semi‑monthly rate	45000.00
-9	Hourly Rate	Hourly rate	535.71
-10	SSS Number	SSS identification number	44-4506057-3
-11	PhilHealth Number	PhilHealth identification number	820127000000
-12	TIN	Tax Identification Number	442-605-657-000
-13	Pag-IBIG Number	Pag‑IBIG identification number	691295000000
+<img width="743" height="672" alt="image" src="https://github.com/user-attachments/assets/fc36d960-258a-447c-a51d-c7d9e94e02dc" />
+
 
 
 Sample Row:
@@ -143,24 +129,14 @@ Enter Password: 12345
 
 Main Dashboard
 
-Element	Description
 
-Header	Shows system title, period selector, search bar, and logout button.
-Sidebar	Action buttons: Add, Edit, Delete, Refresh, Backup, Import, Export, Generate Report.
-Main Table	Displays all employee records with payroll data (hours, gross pay, deductions, net pay).
-Status Bar	Shows system status, record count, attendance count, and current time.
+<img width="728" height="298" alt="image" src="https://github.com/user-attachments/assets/be5c1b13-0f29-415c-89c2-f0740d80109b" />
+
 
 Actions
-Action	How To
-Add Employee	Click Add Employee → Fill in all fields → Click Save.
-Edit Employee	Select an employee → Click Edit Employee (or double‑click the row) → Modify fields → Click Save.
-Delete Employee	Select an employee → Click Delete Employee → Confirm deletion.
-Search	Type in the search bar (filters by ID, name, position, or supervisor).
-Change Period	Use the Period: dropdown to view a specific month or all months.
-Generate Report	Click Generate Report → A detailed payroll report appears.
-Backup Data	Click Backup Data → All CSV data is copied to the backups/ folder.
-Import CSV	Click Import CSV → Select a CSV file → Replaces current employee data.
-Export CSV	Click Export CSV → Exports the current table data to a CSV file.
+
+
+<img width="724" height="449" alt="image" src="https://github.com/user-attachments/assets/0b474f06-f034-4b82-90d4-497ad8232c4b" />
 
 ✅ Assessment Rubric Alignment
 Rubric Element	How the Application Meets It
@@ -182,4 +158,4 @@ Issue: CSV files not loading
 Solution: Place employees.csv and attendance.csv in the same folder as the compiled .class files (project root). The program will auto‑create sample data if files are missing.
 
 Issue: Scientific notation in Excel (e.g., 8.20127E+11)
-Solution: Had to add "'" on every cell so it will read as a whole number
+Solution: Had to add "'" on every cell so it will read as a whole number.
